@@ -1,0 +1,15 @@
+.imageGallery {
+    display      : flex;
+    flex         : 1;
+    flex-wrap    : wrap;
+    align-content: flex-start;
+    overflow     : auto;
+    margin       : 1rem;
+}
+
+.imageGallery>* {
+    margin-left: 1rem;
+    /* Horizontal spacing between images */
+    margin-top : 1rem;
+    /* Vertical spacing between images */
+}
